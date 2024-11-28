@@ -4,7 +4,6 @@ import com.bennyhuo.kotlin.analyzer.KotlinCodeAnalyzer
 import com.bennyhuo.kotlin.analyzer.buildOptions
 import org.jetbrains.kotlin.psi.KtClass
 import org.jetbrains.kotlin.psi.psiUtil.isAbstract
-import org.jetbrains.kotlin.util.isOrdinaryClass
 
 class CodeAnalyzer(paths: List<String>) {
     private val codeAnalysis = KotlinCodeAnalyzer(buildOptions {
