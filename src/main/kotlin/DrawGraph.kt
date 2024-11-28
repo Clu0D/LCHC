@@ -31,7 +31,7 @@ fun generateDotFile(graph: Map<String, Set<Pair<String, Int>>>, filePath: String
 
         val maxWeight = log10(edgeWeights.max().toDouble())
         val minWeight = log10(edgeWeights.min().toDouble())
-        val maxColor = 225
+        val maxColor = 205
         val minColor = 0
 
         for ((vertex, neighbors) in graph)
